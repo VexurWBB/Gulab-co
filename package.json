@@ -1,0 +1,18 @@
+{
+  "name": "gulab-and-co-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "verify": "node scripts/verify-site.mjs",
+    "optimise:images": "node scripts/optimise-images.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "1.1.2",
+    "sharp": "0.35.5"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
