@@ -2220,10 +2220,10 @@
   .service-spotlight__link { text-align: center; }
   .features-premium__grid { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; }
   .feature-card { padding: 30px 24px 28px; }
-  .hero-stat { min-width: 220px; }
-  .hero-stat__card { padding: 18px 16px 14px; }
+  .hero-stat { min-width: 0; }
+  .hero-stat__card { padding: 18px 16px 14px; height: 100%; }
   .hero-stats-ticker__track { animation-duration: 24s; }
-  .hero-stat__label { min-width: 130px; font-size: 8px; }
+  .hero-stat__label { min-width: 0; max-width: 100%; font-size: 8px; }
   .about-teaser__badge { right: 20px; bottom: 28px; padding: 18px 22px; }
   .about-teaser__frame img { height: 300px; }
   .about-teaser__highlights { grid-template-columns: 1fr; }

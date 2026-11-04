@@ -1,0 +1,170 @@
+{
+  "/assets/images/about-profile.jpg": {
+    "src": "/assets/images/optimised/about-profile-1000-afa62a5d5617.webp",
+    "width": 1000,
+    "height": 680,
+    "srcSet": "/assets/images/optimised/about-profile-240-e315fcaeac05.webp 240w, /assets/images/optimised/about-profile-640-ccaa189d6634.webp 640w, /assets/images/optimised/about-profile-1000-afa62a5d5617.webp 1000w"
+  },
+  "/assets/images/card-step-assess.jpg": {
+    "src": "/assets/images/optimised/card-step-assess-900-73cd9927f14e.webp",
+    "width": 900,
+    "height": 613,
+    "srcSet": "/assets/images/optimised/card-step-assess-240-db5496d0900f.webp 240w, /assets/images/optimised/card-step-assess-640-0a6a820e1c6e.webp 640w, /assets/images/optimised/card-step-assess-900-73cd9927f14e.webp 900w"
+  },
+  "/assets/images/card-step-complete.jpg": {
+    "src": "/assets/images/optimised/card-step-complete-900-d455654c788d.webp",
+    "width": 900,
+    "height": 1350,
+    "srcSet": "/assets/images/optimised/card-step-complete-240-6f9f8b4987e9.webp 240w, /assets/images/optimised/card-step-complete-640-7af9e41c2b62.webp 640w, /assets/images/optimised/card-step-complete-900-d455654c788d.webp 900w"
+  },
+  "/assets/images/card-step-discovery.jpg": {
+    "src": "/assets/images/optimised/card-step-discovery-900-ccd6ac38e5ae.webp",
+    "width": 900,
+    "height": 506,
+    "srcSet": "/assets/images/optimised/card-step-discovery-240-6ff3667f6eb3.webp 240w, /assets/images/optimised/card-step-discovery-640-a06d075e6c72.webp 640w, /assets/images/optimised/card-step-discovery-900-ccd6ac38e5ae.webp 900w"
+  },
+  "/assets/images/card-step-plan.jpg": {
+    "src": "/assets/images/optimised/card-step-plan-900-15413dc9bf61.webp",
+    "width": 900,
+    "height": 506,
+    "srcSet": "/assets/images/optimised/card-step-plan-240-eb4619831168.webp 240w, /assets/images/optimised/card-step-plan-640-a85545f8aa3e.webp 640w, /assets/images/optimised/card-step-plan-900-15413dc9bf61.webp 900w"
+  },
+  "/assets/images/card-step-protect.jpg": {
+    "src": "/assets/images/optimised/card-step-protect-900-69c352ef40cf.webp",
+    "width": 900,
+    "height": 1350,
+    "srcSet": "/assets/images/optimised/card-step-protect-240-ab286ae4a493.webp 240w, /assets/images/optimised/card-step-protect-640-f1748fdb3bd9.webp 640w, /assets/images/optimised/card-step-protect-900-69c352ef40cf.webp 900w"
+  },
+  "/assets/images/card-step-search.jpg": {
+    "src": "/assets/images/optimised/card-step-search-900-2ea40dddf63f.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-step-search-240-3b2332fb9a35.webp 240w, /assets/images/optimised/card-step-search-640-3ed292db76da.webp 640w, /assets/images/optimised/card-step-search-900-2ea40dddf63f.webp 900w"
+  },
+  "/assets/images/card-step-secure.jpg": {
+    "src": "/assets/images/optimised/card-step-secure-900-583faf3ee0a8.webp",
+    "width": 900,
+    "height": 676,
+    "srcSet": "/assets/images/optimised/card-step-secure-240-d5a4864b5ad5.webp 240w, /assets/images/optimised/card-step-secure-640-0a1fb7d90e5c.webp 640w, /assets/images/optimised/card-step-secure-900-583faf3ee0a8.webp 900w"
+  },
+  "/assets/images/card-step-settlement.jpg": {
+    "src": "/assets/images/optimised/card-step-settlement-900-ee60fe76a6d4.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-step-settlement-240-82b6c1782e1f.webp 240w, /assets/images/optimised/card-step-settlement-640-be134470902f.webp 640w, /assets/images/optimised/card-step-settlement-900-ee60fe76a6d4.webp 900w"
+  },
+  "/assets/images/card-step-strategy.jpg": {
+    "src": "/assets/images/optimised/card-step-strategy-900-6dc91599cfb8.webp",
+    "width": 900,
+    "height": 601,
+    "srcSet": "/assets/images/optimised/card-step-strategy-240-f3b7ae1a4ff4.webp 240w, /assets/images/optimised/card-step-strategy-640-9be0051d494a.webp 640w, /assets/images/optimised/card-step-strategy-900-6dc91599cfb8.webp 900w"
+  },
+  "/assets/images/card-svc-advocacy.jpg": {
+    "src": "/assets/images/optimised/card-svc-advocacy-900-cfcc01f84e39.webp",
+    "width": 900,
+    "height": 601,
+    "srcSet": "/assets/images/optimised/card-svc-advocacy-240-9507d1ebe85e.webp 240w, /assets/images/optimised/card-svc-advocacy-640-47a2423805ed.webp 640w, /assets/images/optimised/card-svc-advocacy-900-cfcc01f84e39.webp 900w"
+  },
+  "/assets/images/card-svc-auction.jpg": {
+    "src": "/assets/images/optimised/card-svc-auction-900-a0d2d4c3a80c.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-svc-auction-240-bc474e2e6189.webp 240w, /assets/images/optimised/card-svc-auction-640-f5a6dd77e1ac.webp 640w, /assets/images/optimised/card-svc-auction-900-a0d2d4c3a80c.webp 900w"
+  },
+  "/assets/images/card-svc-families.jpg": {
+    "src": "/assets/images/optimised/card-svc-families-900-24a7eb6cf616.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-svc-families-240-c8c4927fbeac.webp 240w, /assets/images/optimised/card-svc-families-640-069b1d2bbe15.webp 640w, /assets/images/optimised/card-svc-families-900-24a7eb6cf616.webp 900w"
+  },
+  "/assets/images/card-svc-first-home.jpg": {
+    "src": "/assets/images/optimised/card-svc-first-home-900-b3a0e5767f97.webp",
+    "width": 900,
+    "height": 597,
+    "srcSet": "/assets/images/optimised/card-svc-first-home-240-6d23b9f0af3b.webp 240w, /assets/images/optimised/card-svc-first-home-640-3786db80c2f5.webp 640w, /assets/images/optimised/card-svc-first-home-900-b3a0e5767f97.webp 900w"
+  },
+  "/assets/images/card-svc-full-package.jpg": {
+    "src": "/assets/images/optimised/card-svc-full-package-900-8f112f9ef85b.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-svc-full-package-240-a1269b1b2adb.webp 240w, /assets/images/optimised/card-svc-full-package-640-aa61184164fb.webp 640w, /assets/images/optimised/card-svc-full-package-900-8f112f9ef85b.webp 900w"
+  },
+  "/assets/images/card-svc-interstate.jpg": {
+    "src": "/assets/images/optimised/card-svc-interstate-900-19a618b48d61.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-svc-interstate-240-67eb5662db8c.webp 240w, /assets/images/optimised/card-svc-interstate-640-af5f64b08720.webp 640w, /assets/images/optimised/card-svc-interstate-900-19a618b48d61.webp 900w"
+  },
+  "/assets/images/card-svc-investment.jpg": {
+    "src": "/assets/images/optimised/card-svc-investment-900-1f6a5e111e76.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-svc-investment-240-c0533e7bd2e9.webp 240w, /assets/images/optimised/card-svc-investment-640-dd2195f85c98.webp 640w, /assets/images/optimised/card-svc-investment-900-1f6a5e111e76.webp 900w"
+  },
+  "/assets/images/card-svc-investors.jpg": {
+    "src": "/assets/images/optimised/card-svc-investors-900-cbf3b13d2068.webp",
+    "width": 900,
+    "height": 1200,
+    "srcSet": "/assets/images/optimised/card-svc-investors-240-4bd4a27f2a4d.webp 240w, /assets/images/optimised/card-svc-investors-640-3bb8424698b9.webp 640w, /assets/images/optimised/card-svc-investors-900-cbf3b13d2068.webp 900w"
+  },
+  "/assets/images/card-svc-negotiation.jpg": {
+    "src": "/assets/images/optimised/card-svc-negotiation-900-c807e5ebe92c.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-svc-negotiation-240-cbcfff87957b.webp 240w, /assets/images/optimised/card-svc-negotiation-640-b3df42299ffa.webp 640w, /assets/images/optimised/card-svc-negotiation-900-c807e5ebe92c.webp 900w"
+  },
+  "/assets/images/card-svc-owner.jpg": {
+    "src": "/assets/images/optimised/card-svc-owner-900-e6ede3a314f9.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/card-svc-owner-240-975163ac51ff.webp 240w, /assets/images/optimised/card-svc-owner-640-eacc3fbdea7c.webp 640w, /assets/images/optimised/card-svc-owner-900-e6ede3a314f9.webp 900w"
+  },
+  "/assets/images/hero-about.jpg": {
+    "src": "/assets/images/optimised/hero-about-1280-be2ef8b52061.webp",
+    "width": 1400,
+    "height": 933,
+    "srcSet": "/assets/images/optimised/hero-about-240-e54b60b263e1.webp 240w, /assets/images/optimised/hero-about-640-7748819fb4d9.webp 640w, /assets/images/optimised/hero-about-1280-be2ef8b52061.webp 1280w, /assets/images/optimised/hero-about-1400-4a07315c4fd8.webp 1400w"
+  },
+  "/assets/images/hero-contact.jpg": {
+    "src": "/assets/images/optimised/hero-contact-1280-11792b26a102.webp",
+    "width": 1400,
+    "height": 933,
+    "srcSet": "/assets/images/optimised/hero-contact-240-0090b93a9aa0.webp 240w, /assets/images/optimised/hero-contact-640-f33b9ab5fe56.webp 640w, /assets/images/optimised/hero-contact-1280-11792b26a102.webp 1280w, /assets/images/optimised/hero-contact-1400-618d4be9b0e7.webp 1400w"
+  },
+  "/assets/images/hero-gold-coast.jpg": {
+    "src": "/assets/images/optimised/hero-gold-coast-1280-9ff426aeabc4.webp",
+    "width": 1920,
+    "height": 1274,
+    "srcSet": "/assets/images/optimised/hero-gold-coast-240-3efb21b72ee4.webp 240w, /assets/images/optimised/hero-gold-coast-640-c30a4aa6bf38.webp 640w, /assets/images/optimised/hero-gold-coast-1280-9ff426aeabc4.webp 1280w, /assets/images/optimised/hero-gold-coast-1920-afe2f111ff9c.webp 1920w"
+  },
+  "/assets/images/hero-process.jpg": {
+    "src": "/assets/images/optimised/hero-process-1280-90ea1666a9ab.webp",
+    "width": 1400,
+    "height": 933,
+    "srcSet": "/assets/images/optimised/hero-process-240-ffb94cc62d3f.webp 240w, /assets/images/optimised/hero-process-640-f9f933b604f5.webp 640w, /assets/images/optimised/hero-process-1280-90ea1666a9ab.webp 1280w, /assets/images/optimised/hero-process-1400-41f6c308edbe.webp 1400w"
+  },
+  "/assets/images/hero-services.jpg": {
+    "src": "/assets/images/optimised/hero-services-1280-9764f3a68ddb.webp",
+    "width": 1400,
+    "height": 1051,
+    "srcSet": "/assets/images/optimised/hero-services-240-b0fefaade45c.webp 240w, /assets/images/optimised/hero-services-640-885e92dc7d63.webp 640w, /assets/images/optimised/hero-services-1280-9764f3a68ddb.webp 1280w, /assets/images/optimised/hero-services-1400-e48bdf3e47a0.webp 1400w"
+  },
+  "/assets/images/teaser-living.jpg": {
+    "src": "/assets/images/optimised/teaser-living-1000-2987d253726b.webp",
+    "width": 1000,
+    "height": 750,
+    "srcSet": "/assets/images/optimised/teaser-living-240-a44070643805.webp 240w, /assets/images/optimised/teaser-living-640-e3c53b554dfc.webp 640w, /assets/images/optimised/teaser-living-1000-2987d253726b.webp 1000w"
+  },
+  "/assets/images/teaser-step-discovery.jpg": {
+    "src": "/assets/images/optimised/teaser-step-discovery-900-b1ec5c0c13f6.webp",
+    "width": 900,
+    "height": 600,
+    "srcSet": "/assets/images/optimised/teaser-step-discovery-240-9a41ec97ee7c.webp 240w, /assets/images/optimised/teaser-step-discovery-640-76f872acfc89.webp 640w, /assets/images/optimised/teaser-step-discovery-900-b1ec5c0c13f6.webp 900w"
+  },
+  "/assets/images/teaser-step-search.jpg": {
+    "src": "/assets/images/optimised/teaser-step-search-900-c822e2593286.webp",
+    "width": 900,
+    "height": 675,
+    "srcSet": "/assets/images/optimised/teaser-step-search-240-4a4bfa0893f8.webp 240w, /assets/images/optimised/teaser-step-search-640-21bcc078daef.webp 640w, /assets/images/optimised/teaser-step-search-900-c822e2593286.webp 900w"
+  }
+}
