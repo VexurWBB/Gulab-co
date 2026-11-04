@@ -1,0 +1,8 @@
+﻿node_modules/
+output/
+artifacts/
+.vercel/
+.wrangler/
+.env
+.env.*
+!.env.example

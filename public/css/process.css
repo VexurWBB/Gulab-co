@@ -1,0 +1,277 @@
+/* Process page */
+
+.process-page {
+  background: linear-gradient(180deg, #CFC8BC 0%, #C5BEB2 50%, #BAB3A8 100%);
+  border-top: 1px solid color-mix(in srgb, var(--gold) 18%, transparent);
+}
+
+.process-page .process-steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  align-items: stretch;
+}
+
+.process-page .process-steps .service-preview-card--wide {
+  grid-column: 1 / -1;
+  max-width: 760px;
+  margin-inline: auto;
+  width: 100%;
+}
+
+/* ── Why It Works ── */
+.process-diff {
+  padding: clamp(72px, 10vw, 96px) 0;
+  background: linear-gradient(180deg, #0a0a0a 0%, var(--dark) 45%, #0d0d0d 100%);
+  border-top: 1px solid color-mix(in srgb, var(--gold) 20%, transparent);
+  position: relative;
+  overflow: hidden;
+}
+
+.process-diff::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(320px, 50vw);
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-light), var(--gold), var(--gold-light), transparent);
+}
+
+.process-diff__header {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 520px;
+  margin: 0 auto 48px;
+}
+
+.process-diff__header .heading-serif {
+  color: var(--white);
+  margin: 12px 0 0;
+}
+
+.process-diff .diff-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  max-width: 1040px;
+  margin-inline: auto;
+  align-items: stretch;
+}
+
+.process-diff .diff-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  isolation: isolate;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #1A1816 0%, #111111 100%);
+  border: 1px solid color-mix(in srgb, var(--gold) 28%, transparent);
+  box-shadow:
+    0 20px 48px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 color-mix(in srgb, var(--gold) 10%, transparent);
+  transition: transform 0.5s var(--ease), border-color 0.5s var(--ease), box-shadow 0.5s var(--ease);
+}
+
+.process-diff .diff-card:hover {
+  transform: translateY(-6px);
+  border-color: color-mix(in srgb, var(--gold) 48%, transparent);
+  box-shadow:
+    0 28px 56px rgba(0, 0, 0, 0.36),
+    0 0 20px color-mix(in srgb, var(--gold) 8%, transparent);
+}
+
+.process-diff .diff-card__spine {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--gold-light), var(--gold), color-mix(in srgb, var(--gold) 40%, transparent));
+  z-index: 3;
+  border-radius: 10px 0 0 10px;
+}
+
+.process-diff .diff-card__panel {
+  position: relative;
+  z-index: 2;
+  min-height: 120px;
+  padding: 20px 22px 44px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 6%, #141210) 0%, #0C0C0C 100%);
+  border-bottom: 1px solid color-mix(in srgb, var(--gold) 16%, transparent);
+  border-radius: 10px 10px 0 0;
+  overflow: visible;
+}
+
+.process-diff .diff-card__panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 10px,
+    color-mix(in srgb, var(--gold) 4%, transparent) 10px,
+    color-mix(in srgb, var(--gold) 4%, transparent) 11px
+  );
+  opacity: 0.3;
+  pointer-events: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.process-diff .diff-card__watermark {
+  position: absolute;
+  top: -4px;
+  right: 10px;
+  font-family: var(--font-serif);
+  font-size: clamp(3.5rem, 5vw, 4.2rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: color-mix(in srgb, var(--gold) 12%, #1A1816);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.process-diff .diff-card:hover .diff-card__watermark {
+  color: color-mix(in srgb, var(--gold) 20%, #1A1816);
+}
+
+.process-diff .diff-card__tag {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--gold-light) 90%, #E8E4DC);
+  padding: 5px 10px;
+  border: 1px solid color-mix(in srgb, var(--gold) 30%, transparent);
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
+}
+
+.process-diff .diff-card__icon-wrap {
+  position: absolute;
+  left: 22px;
+  bottom: -26px;
+  z-index: 6;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+  color: var(--gold-light);
+  background: linear-gradient(145deg, #2A2826 0%, #111111 100%);
+  border: 1px solid color-mix(in srgb, var(--gold) 60%, transparent);
+  box-shadow:
+    0 10px 24px rgba(0, 0, 0, 0.45),
+    inset 0 0 14px color-mix(in srgb, var(--gold) 12%, transparent);
+  transition: transform 0.5s var(--ease), border-color 0.5s var(--ease);
+}
+
+.process-diff .diff-card:hover .diff-card__icon-wrap {
+  transform: translateY(-3px);
+  border-color: var(--gold);
+}
+
+.process-diff .diff-card__icon-wrap svg {
+  width: 22px;
+  height: 22px;
+}
+
+.process-diff .diff-card__body {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 22px 26px;
+}
+
+.process-diff .diff-card h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+  font-weight: 500;
+  color: #E8E4DC;
+  margin: 0 0 6px;
+  line-height: 1.25;
+  transition: color 0.5s var(--ease);
+}
+
+.process-diff .diff-card:hover h3 {
+  color: var(--gold-light);
+}
+
+.process-diff .diff-card__hook {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  line-height: 1.35;
+  color: var(--gold-accent-dark-bg);
+  margin: 0 0 14px;
+}
+
+.process-diff .diff-card__rule {
+  display: block;
+  width: 40px;
+  height: 1px;
+  margin-bottom: 14px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+  transition: width 0.5s var(--ease);
+}
+
+.process-diff .diff-card:hover .diff-card__rule {
+  width: 64px;
+}
+
+.process-diff .diff-card__copy {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.52);
+  transition: color 0.5s var(--ease);
+}
+
+.process-diff .diff-card:hover .diff-card__copy {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+@media (max-width: 1024px) {
+  .process-diff .diff-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-diff .diff-grid .diff-card:last-child {
+    grid-column: 1 / -1;
+    max-width: 420px;
+    margin-inline: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .process-page .process-steps {
+    grid-template-columns: 1fr;
+    max-width: 480px;
+    margin-inline: auto;
+  }
+
+  .process-diff .diff-grid {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+
+  .process-diff .diff-grid .diff-card:last-child {
+    grid-column: auto;
+    max-width: none;
+  }
+}
