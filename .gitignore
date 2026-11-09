@@ -3,6 +3,6 @@ output/
 artifacts/
 .vercel/
 .wrangler/
+.env
+.env.*
 !.env.example
-config.bat
-node_modules
